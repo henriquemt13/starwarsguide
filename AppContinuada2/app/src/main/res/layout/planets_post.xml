@@ -14,27 +14,27 @@
 
 
     <ImageView
-        android:id="@+id/imagem"
+        android:id="@+id/imagem_planeta"
         android:layout_width="120dp"
         android:layout_height="115dp" />
 
     <TextView
-        android:id="@+id/nome"
+        android:id="@+id/nome_planeta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/row_post_nome"
+        android:text="@string/planets_post_nome"
 
         android:layout_marginLeft="160dp"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="20sp"
-         />
+        />
 
     <TextView
-        android:id="@+id/orientacao"
+        android:id="@+id/bioma"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/row_post_orientacao"
+        android:text="@string/planets_post_bioma"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="25dp"
         android:textAlignment="center"
@@ -42,25 +42,13 @@
         android:textSize="15sp"
         />
 
-    <TextView
-        android:id="@+id/arma"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
-        android:text="@string/row_post_arma"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="50dp"
-
-        android:textAlignment="center"
-
-        android:textSize="15sp"
-        />
 
     <TextView
-        android:id="@+id/idade"
+        android:id="@+id/populacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/row_post_idade"
+        android:text="@string/planets__post_populacao"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="80dp"
 

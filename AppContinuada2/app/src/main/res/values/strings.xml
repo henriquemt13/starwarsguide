@@ -1,5 +1,98 @@
 <resources>
-    <string name="app_name">AppContinuada2</string>
+    <string name="app_name">Star Wars Guide</string>
+
+
+    <string name="title_app">Guia Star Wars</string>
+
+    <string name="bt_planetas">Ver Planetas</string>
+    <string name="bt_personagens">Ver Personagens</string>
+    <string name="bt_criar_atualizar_personagens">Criar/Atualizar Personagens</string>
+    <string name="bt_criar_atualizar_planetas">Criar/Atualizar Planetas</string>
+
+    <string name="bt_excluir_planetas">Excluir Planetas</string>
+    <string name="bt_excluir_personagens">Excluir Personagens</string>
+
+    <string name="title_criar_atualizar_personagem">Criar/Atualizar Personagem</string>
+    <string name="tv_id_personagem">Insira o id do personagem</string>
+    <string name="et_id_personagem">ID</string>
+
+    <string name="tv_nome_personagem">Insira o nome do personagem</string>
+    <string name="et_nome_personagem">Nome</string>
+
+    <string name="tv_arma_personagem">Insira a arma favorita do personagem</string>
+    <string name="et_arma_personagem">Arma</string>
+
+    <string name="tv_idade_personagem">Insira a idade do personagem</string>
+    <string name="et_idade_personagem">Idade</string>
+
+    <string name="tv_imagem_personagem">Insira o link da imagem</string>
+    <string name="et_imagem_personagem">Link Imagem</string>
+
+
+    <string name="sw_lado">Lado Negro/Lado Branco</string>
+
+    <string name="bt_voltar">Voltar</string>
+    <string name="bt_criar_atualizar">Criar/Atualizar</string>
+
+    <string name="tv_obs_personagem">Caso o ID inserido já exista, o personagem será atualizado*</string>
+    <string name="tv_obs2_personagem">Caso o ID não seja inserido, será criado um novo personagem**</string>
+    <string name="tv_obs3_personagem">Não se preocupe em fornecer o link da imagem, caso não possua***</string>
+
+
+    <string name="title_criar_atualizar_planeta">Criar/Atualizar Planeta</string>
+    <string name="tv_id_planeta">Insira o id do planeta</string>
+    <string name="et_id_planeta">ID</string>
+
+    <string name="tv_nome_planeta">Insira o nome do planeta</string>
+    <string name="et_nome_planeta">Nome</string>
+
+    <string name="tv_bioma_planeta">Insira o bioma predominante do planeta</string>
+    <string name="et_bioma_planeta">Bioma</string>
+
+    <string name="tv_populacao_planeta">Insira a população do planeta</string>
+    <string name="et_populacao_planeta">Populacao</string>
+
+    <string name="tv_imagem_planeta">Insira o link da imagem</string>
+    <string name="et_imagem_planeta">Link Imagem</string>
+
+    <string name="tv_obs_planeta">Caso o ID inserido já exista, o planeta será atualizado*</string>
+    <string name="tv_obs2_planeta">Caso o ID não seja inserido, será criado um novo planeta**</string>
+    <string name="tv_obs3_planeta">Não se preocupe em fornecer o link da imagem, caso não possua***</string>
+
+
+    <string name="planeta_delete">planeta</string>
+    <string name="personagem_delete">personagem</string>
+
+    <string name="tv_id_delete">Insira o id do</string>
+    <string name="et_id_delete">ID</string>
+
+    <string name="bt_delete">Excluir</string>
+    <string name="tv_titulo_delete">Excluir</string>
+
+
+    <string name="toast_erro">Deu erro</string>
+    <string name="toast_personagem_criado">Personagem criado com sucesso!</string>
+    <string name="toast_personagem_atualizado">Personagem atualizado com sucesso!</string>
+    <string name="toast_personagem_nf">Personagem não encontrado</string>
+
+    <string name="toast_planeta_criado">Planeta criado com sucesso!</string>
+    <string name="toast_planeta_atualizado">Planeta atualizado com sucesso!</string>
+    <string name="toast_planeta_nf">Planeta não encontrado</string>
+
+    <string name="toast_personagem_delete">Personagem excluido com sucesso</string>
+    <string name="toast_planeta_delete">Planeta excluido com sucesso</string>
+
+    <string name="toast_campos">Preencha todos os campos!</string>
+
+
+    <string name="row_post_nome">Default Text</string>
+    <string name="row_post_idade">Idade: </string>
+    <string name="row_post_orientacao">Orientaçâo: </string>
+    <string name="row_post_arma">Arma Favorita: </string>
+
+    <string name="planets_post_nome">Default Text</string>
+    <string name="planets_post_bioma">Bioma Predominate: </string>
+    <string name="planets__post_populacao">Populacao: </string>
 
 
 </resources>

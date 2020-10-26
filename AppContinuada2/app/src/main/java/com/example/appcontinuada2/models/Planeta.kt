@@ -1,8 +1,9 @@
 package com.example.appcontinuada2.models
 
 data class Planeta (
-    val id: Integer,
+    val id: Int?,
     val nome: String,
     val biomaPredominante:String,
-    val populacao: Integer
+    val populacao: Int?,
+    val imagem:String?
 )

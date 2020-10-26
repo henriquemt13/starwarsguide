@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Star Wars Guide</string>
+
+    <string name="title_app">Star Wars Guide</string>
+
+    <string name="bt_planetas">To See the planets</string>
+    <string name="bt_personagens">To See the characters</string>
+    <string name="bt_criar_atualizar_personagens">Create/Update Characters</string>
+    <string name="bt_criar_atualizar_planetas">Create/Update Planets</string>
+
+    <string name="bt_excluir_planetas">Delete Planets</string>
+    <string name="bt_excluir_personagens">Delete Characters</string>
+
+    <string name="title_criar_atualizar_personagem">Create/Update Character</string>
+    <string name="tv_id_personagem">Enter the Character id</string>
+    <string name="et_id_personagem">ID</string>
+
+    <string name="tv_nome_personagem">Enter the Character name</string>
+    <string name="et_nome_personagem">Name</string>
+
+    <string name="tv_arma_personagem">Enter the Character favorite weapon</string>
+    <string name="et_arma_personagem">Weapon</string>
+
+    <string name="tv_idade_personagem">Enter the Character Age</string>
+    <string name="et_idade_personagem">Age</string>
+
+    <string name="tv_imagem_personagem">Enter the image link</string>
+    <string name="et_imagem_personagem">Image Link</string>
+
+
+    <string name="sw_lado">Dark Side/Bright Side</string>
+
+    <string name="bt_voltar">Back</string>
+    <string name="bt_criar_atualizar">Create/Update</string>
+
+    <string name="tv_obs_personagem">If the entered ID already exists, the character will be updated*</string>
+    <string name="tv_obs2_personagem">If the ID is not entered, a new character will be created**</string>
+    <string name="tv_obs3_personagem">Dont worry about providing the image link, if you dont have it***</string>
+
+    <string name="tv_obs_planeta">If the entered ID already exists, the planet will be updated*</string>
+    <string name="tv_obs2_planeta">If the ID is not entered, a new planet will be created**</string>
+    <string name="tv_obs3_planeta">Dont worry about providing the image link, if you dont have it***</string>
+
+    <string name="title_criar_atualizar_planeta">Create/Update Planet</string>
+    <string name="tv_id_planeta">Enter the planet id</string>
+    <string name="et_id_planeta">ID</string>
+
+    <string name="tv_nome_planeta">Enter the planet name</string>
+    <string name="et_nome_planeta">Name</string>
+
+    <string name="tv_bioma_planeta">Enter the planets predominant biome</string>
+    <string name="et_bioma_planeta">Biome</string>
+
+    <string name="tv_populacao_planeta">Enter the Planet population</string>
+    <string name="et_populacao_planeta">Population</string>
+
+    <string name="tv_imagem_planeta">Enter the image link</string>
+    <string name="et_imagem_planeta">Image Link</string>
+
+
+    <string name="planeta_delete">planet</string>
+    <string name="personagem_delete">character</string>
+
+    <string name="tv_id_delete">Enter the id from the</string>
+    <string name="et_id_delete">ID</string>
+
+    <string name="bt_delete">Delete</string>
+    <string name="tv_titulo_delete">Delete</string>
+
+
+    <string name="row_post_nome">Default Text</string>
+    <string name="row_post_idade">Age: </string>
+    <string name="row_post_orientacao">Orientation: </string>
+    <string name="row_post_arma">Favorite Weapon: </string>
+
+    <string name="planets_post_nome">Default Text</string>
+    <string name="planets_post_bioma">Predominant Biome: </string>
+    <string name="planets__post_populacao">Population: </string>
+
+
+    <string name="toast_erro">Something did wrong</string>
+    <string name="toast_personagem_criado">Character created with success!</string>
+    <string name="toast_personagem_atualizado">Character updated with success!</string>
+    <string name="toast_personagem_nf">Character not found</string>
+
+    <string name="toast_planeta_criado">Planet created with success!</string>
+    <string name="toast_planeta_atualizado">Planet updated with success!</string>
+    <string name="toast_planeta_nf">Planet not found</string>
+
+    <string name="toast_personagem_delete">Character deleted with success</string>
+    <string name="toast_planeta_delete">Planet deleted with success</string>
+    <string name="toast_campos">Fill in all fields!</string>
+</resources>

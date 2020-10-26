@@ -9,5 +9,11 @@ interface ApiPersonagensRequest {
     fun getAllCharacters(): Call<List<Personagem>>
 
     @POST("/personagem")
-    fun createNewCharacter(@Body personagem: Personagem):Call<Personagem>
+    fun createNewCharacter(@Body personagem: Personagem):Call<Void>
+
+    @PUT("/personagem/{id}")
+    fun updateCharacter( @Path("id" ) id: Int, @Body personagem: Personagem):Call<Void>
+
+    @DELETE("/personagem/{id}")
+    fun deleteCharacter(@Path("id") id: Int): Call<Void>
 }

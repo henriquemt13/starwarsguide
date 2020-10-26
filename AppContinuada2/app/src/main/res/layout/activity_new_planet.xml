@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewPlanetActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#2B2828"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_criar_atualizar_planeta"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:id="@+id/tv_titulo"
+        android:layout_marginTop="15dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_id_planeta"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo"
+        android:id="@+id/tv_id"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_id_planeta"
+        android:id="@+id/et_id"
+        android:background="#fff"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/tv_id"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_obs_planeta"
+        android:textColor="#636363"
+        app:layout_constraintTop_toBottomOf="@+id/et_imagem"
+        android:id="@+id/tv_obs"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="10sp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_obs2_planeta"
+        android:textColor="#FF636363"
+        app:layout_constraintTop_toBottomOf="@+id/tv_obs"
+        android:id="@+id/tv_obs2"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="10sp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_obs3_planeta"
+        android:textColor="#FF636363"
+        app:layout_constraintTop_toBottomOf="@+id/tv_obs2"
+        android:id="@+id/tv_obs3"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="10sp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_nome_planeta"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/et_id"
+        android:id="@+id/tv_nome"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_nome_planeta"
+        android:id="@+id/et_nome"
+        android:background="#fff"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nome"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_bioma_planeta"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/et_nome"
+        android:id="@+id/tv_bioma"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_bioma_planeta"
+        android:id="@+id/et_bioma"
+        android:background="#fff"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bioma"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_populacao_planeta"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/et_bioma"
+        android:id="@+id/tv_populacao"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_populacao_planeta"
+        android:id="@+id/et_populacao"
+        android:background="#fff"
+        app:layout_constraintTop_toBottomOf="@+id/tv_populacao"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:inputType="number"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_imagem_planeta"
+        android:textColor="#FFF"
+        app:layout_constraintTop_toBottomOf="@+id/et_populacao"
+        android:id="@+id/tv_imagem"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_imagem_planeta"
+        android:id="@+id/et_imagem"
+        android:background="#fff"
+        app:layout_constraintTop_toBottomOf="@+id/tv_imagem"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        ></EditText>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_criar_atualizar"
+        android:onClick="criarNovoAtualizarPlaneta"
+        android:textColor="#000"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_obs3"
+        android:id="@+id/bt_criar_atualizar"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_voltar"
+        android:textColor="#000"
+        android:textSize="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/bt_criar_atualizar"
+        android:id="@+id/bt_voltar"
+        android:layout_marginTop="5dp"
+        android:onClick="voltarTelaPlaneta"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
