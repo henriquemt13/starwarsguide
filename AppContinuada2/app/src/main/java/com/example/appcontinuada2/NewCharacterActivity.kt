@@ -49,7 +49,7 @@ class NewCharacterActivity : AppCompatActivity() {
 
 
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://5f86391ac8a16a0016e6ace8.mockapi.io/stwrs-api/personagens/")
+                .baseUrl("https://5f86391ac8a16a0016e6ace8.mockapi.io/stwrs-api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
