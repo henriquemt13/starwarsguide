@@ -6,6 +6,6 @@ Projeto feito na linguagem Kotlin, no Android Studio, e utilizando a ferramenta 
 Imagens da aplicação: 
 
 <center>
-  <img aling="center" src="https://github.com/henriquemt13/starwarsguide/imagens/telaPersonagem.jpeg"/>
-  <img aling="center" src="https://github.com/henriquemt13/starwarsguide/imagens/telaPlaneta.jpeg"/>
+  <img aling="center" src="https://github.com/henriquemt13/starwarsguide/blob/main/imagens/telaPersonagem.jpeg"/>
+  <img aling="center" src="https://github.com/henriquemt13/starwarsguide/blob/main/imagens/telaPlaneta.jpeg"/>
 </center>
